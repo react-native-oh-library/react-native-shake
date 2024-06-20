@@ -1,6 +1,6 @@
 {
-  "name": "react-native-shake",
-  "version": "5.6.2",
+  "name": "@react-native-oh-tpl/react-native-shake",
+  "version": "5.6.2-0.0.1",
   "description": "A library to detect shake event on Android and iOS",
   "homepage": "https://github.com/Doko-Demo-Doa/react-native-shake",
   "main": "lib/src/index.js",
@@ -8,8 +8,7 @@
   "author": "Quan Pham <phamvanquan@live.com>",
   "license": "MIT",
   "files": [
-    "android",
-    "ios",
+    "harmony",
     "js",
     "lib",
     "react-native-shake.podspec",
@@ -38,7 +37,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-native": "^0.73.6"
+    "react-native": "^0.73.6",
+    "react-native-shake":"5.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -69,12 +69,12 @@
       "node"
     ]
   },
-  "codegenConfig": {
-    "name": "RNShakeSpec",
-    "type": "modules",
-    "jsSrcsDir": "js",
-    "android": {
-      "javaPackageName": "com.clipsub.RNShake"
+  "harmony": {
+    "alias":"react-native-shake",
+    "codegenConfig": {
+      "specPaths": [
+        "./js"
+      ]
     }
   }
 }

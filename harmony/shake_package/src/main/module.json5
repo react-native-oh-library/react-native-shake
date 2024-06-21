@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "shake_package",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-shake",
+        "License": "MIT License",
+        "License File": "https://github.com/Doko-Demo-Doa/react-native-shake/blob/main/LICENSE",
+        "Version Number": "5.6.2",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/Doko-Demo-Doa/react-native-shake",
+        "Description": "A library to detect shake event on Android and iOS"
+    }
+]
